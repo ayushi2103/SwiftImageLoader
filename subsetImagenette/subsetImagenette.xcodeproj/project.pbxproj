@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8A32BB624818B5500A7A103 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BB524818B5500A7A103 /* main.swift */; };
+		E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */; };
+		E8A32BC82483DB7000A7A103 /* Batcher in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BC72483DB7000A7A103 /* Batcher */; };
+		E8A32BCA2483DB7000A7A103 /* Datasets in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BC92483DB7000A7A103 /* Datasets */; };
+		E8A32BCC2483DB7000A7A103 /* FastStyleTransfer in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BCB2483DB7000A7A103 /* FastStyleTransfer */; };
+		E8A32BCE2483DB7000A7A103 /* ImageClassificationModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BCD2483DB7000A7A103 /* ImageClassificationModels */; };
+		E8A32BD02483DB7000A7A103 /* MiniGo in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BCF2483DB7000A7A103 /* MiniGo */; };
+		E8A32BD22483DB7000A7A103 /* ModelSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD12483DB7000A7A103 /* ModelSupport */; };
+		E8A32BD42483DB7000A7A103 /* RecommendationModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD32483DB7000A7A103 /* RecommendationModels */; };
+		E8A32BD62483DB7000A7A103 /* TextModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD52483DB7000A7A103 /* TextModels */; };
+		E8A32BD82483DB7000A7A103 /* VideoClassificationModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD72483DB7000A7A103 /* VideoClassificationModels */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8A32BB024818B5500A7A103 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/ayushitiwari/Desktop;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8A32BB224818B5500A7A103 /* subsetImagenette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subsetImagenette; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A32BB524818B5500A7A103 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetImagenette.swift; sourceTree = "<group>"; };
+		E8A32BC52483DB5B00A7A103 /* subsetImagenette.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = subsetImagenette.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8A32BAF24818B5500A7A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A32BD02483DB7000A7A103 /* MiniGo in Frameworks */,
+				E8A32BD82483DB7000A7A103 /* VideoClassificationModels in Frameworks */,
+				E8A32BCE2483DB7000A7A103 /* ImageClassificationModels in Frameworks */,
+				E8A32BD22483DB7000A7A103 /* ModelSupport in Frameworks */,
+				E8A32BD62483DB7000A7A103 /* TextModels in Frameworks */,
+				E8A32BC82483DB7000A7A103 /* Batcher in Frameworks */,
+				E8A32BD42483DB7000A7A103 /* RecommendationModels in Frameworks */,
+				E8A32BCA2483DB7000A7A103 /* Datasets in Frameworks */,
+				E8A32BCC2483DB7000A7A103 /* FastStyleTransfer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8A32BA924818B5500A7A103 = {
+			isa = PBXGroup;
+			children = (
+				E8A32BB424818B5500A7A103 /* subsetImagenette */,
+				E8A32BB324818B5500A7A103 /* Products */,
+				E8A32BC62483DB7000A7A103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A32BB324818B5500A7A103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A32BB224818B5500A7A103 /* subsetImagenette */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A32BB424818B5500A7A103 /* subsetImagenette */ = {
+			isa = PBXGroup;
+			children = (
+				E8A32BC52483DB5B00A7A103 /* subsetImagenette.entitlements */,
+				E8A32BB524818B5500A7A103 /* main.swift */,
+				E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */,
+			);
+			path = subsetImagenette;
+			sourceTree = "<group>";
+		};
+		E8A32BC62483DB7000A7A103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8A32BB124818B5500A7A103 /* subsetImagenette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A32BB924818B5500A7A103 /* Build configuration list for PBXNativeTarget "subsetImagenette" */;
+			buildPhases = (
+				E8A32BAE24818B5500A7A103 /* Sources */,
+				E8A32BAF24818B5500A7A103 /* Frameworks */,
+				E8A32BB024818B5500A7A103 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = subsetImagenette;
+			packageProductDependencies = (
+				E8A32BC72483DB7000A7A103 /* Batcher */,
+				E8A32BC92483DB7000A7A103 /* Datasets */,
+				E8A32BCB2483DB7000A7A103 /* FastStyleTransfer */,
+				E8A32BCD2483DB7000A7A103 /* ImageClassificationModels */,
+				E8A32BCF2483DB7000A7A103 /* MiniGo */,
+				E8A32BD12483DB7000A7A103 /* ModelSupport */,
+				E8A32BD32483DB7000A7A103 /* RecommendationModels */,
+				E8A32BD52483DB7000A7A103 /* TextModels */,
+				E8A32BD72483DB7000A7A103 /* VideoClassificationModels */,
+			);
+			productName = subsetImagenette;
+			productReference = E8A32BB224818B5500A7A103 /* subsetImagenette */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8A32BAA24818B5500A7A103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ayushi Tiwari";
+				TargetAttributes = {
+					E8A32BB124818B5500A7A103 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E8A32BAD24818B5500A7A103 /* Build configuration list for PBXProject "subsetImagenette" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8A32BA924818B5500A7A103;
+			packageReferences = (
+				E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */,
+			);
+			productRefGroup = E8A32BB324818B5500A7A103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A32BB124818B5500A7A103 /* subsetImagenette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8A32BAE24818B5500A7A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */,
+				E8A32BB624818B5500A7A103 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8A32BB724818B5500A7A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8A32BB824818B5500A7A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E8A32BBA24818B5500A7A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = subsetImagenette/subsetImagenette.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9893V43H62;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E8A32BBB24818B5500A7A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = subsetImagenette/subsetImagenette.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9893V43H62;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8A32BAD24818B5500A7A103 /* Build configuration list for PBXProject "subsetImagenette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A32BB724818B5500A7A103 /* Debug */,
+				E8A32BB824818B5500A7A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A32BB924818B5500A7A103 /* Build configuration list for PBXNativeTarget "subsetImagenette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A32BBA24818B5500A7A103 /* Debug */,
+				E8A32BBB24818B5500A7A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/tensorflow/swift-models";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8A32BC72483DB7000A7A103 /* Batcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = Batcher;
+		};
+		E8A32BC92483DB7000A7A103 /* Datasets */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = Datasets;
+		};
+		E8A32BCB2483DB7000A7A103 /* FastStyleTransfer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = FastStyleTransfer;
+		};
+		E8A32BCD2483DB7000A7A103 /* ImageClassificationModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = ImageClassificationModels;
+		};
+		E8A32BCF2483DB7000A7A103 /* MiniGo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = MiniGo;
+		};
+		E8A32BD12483DB7000A7A103 /* ModelSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = ModelSupport;
+		};
+		E8A32BD32483DB7000A7A103 /* RecommendationModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = RecommendationModels;
+		};
+		E8A32BD52483DB7000A7A103 /* TextModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = TextModels;
+		};
+		E8A32BD72483DB7000A7A103 /* VideoClassificationModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
+			productName = VideoClassificationModels;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E8A32BAA24818B5500A7A103 /* Project object */;
+}
