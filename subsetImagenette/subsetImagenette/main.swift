@@ -15,7 +15,9 @@ let classNames = ["n01440764", "n02102040", "n02979186", "n03000684", "n03028079
 print("Enter pixel size")
 let size = readLine()
 
-benchmark("160px Pillow Image Loading", settings: .iterations(5)) {
+imageDataset(datasetType: "train", numImagesPerClass: 100)
+
+benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
     let _ = loadImagenetteTrainingFiles()
 }
 
