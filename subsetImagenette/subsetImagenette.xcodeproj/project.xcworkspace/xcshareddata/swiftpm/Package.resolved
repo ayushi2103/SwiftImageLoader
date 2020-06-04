@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "Benchmark",
+        "repositoryURL": "https://github.com/google/swift-benchmark",
+        "state": {
+          "branch": "master",
+          "revision": "f1e8d9a67d47fe51e9a2d7e5f2444a643db38277",
+          "version": null
+        }
+      },
+      {
         "package": "TensorFlowModels",
         "repositoryURL": "http://github.com/tensorflow/swift-models",
         "state": {
