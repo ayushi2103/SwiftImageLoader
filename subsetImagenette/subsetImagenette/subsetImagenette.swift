@@ -1,5 +1,5 @@
 //
-//  subsetImagenette160.swift
+//  subsetImagenette.swift
 //  subsetImagenette
 //
 //  Created by Ayushi Tiwari on 2020-05-31.

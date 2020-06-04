@@ -20,8 +20,9 @@ func getTensor(fromPath: String) -> (Tensor<Float>, Int32) {
     let img = pilImage.open(fromPath)
     let image = np.array(img, dtype: np.float32) * (1.0 / 255)
     var imageTensor = Tensor<Float>(numpy: image)!
+    let tensorSize: _TensorElementLiteral<Int32> = _TensorElementLiteral<Int32>(integerLiteral: Int32.IntegerLiteralType(Int(size!)!))
     imageTensor = imageTensor.expandingShape(at: 0)
-    imageTensor = _Raw.resizeArea(images: imageTensor , size: [160, 160])
+    imageTensor = _Raw.resizeArea(images: imageTensor , size: [ tensorSize, tensorSize])
     
     var label: Int32 = 0
     
@@ -37,7 +38,7 @@ func getTensor(fromPath: String) -> (Tensor<Float>, Int32) {
 
 func loadDataset(datasetType: String) -> (Tensor<Float>, [Int32]) {
     
-    let fromList = glob.glob("/Users/ayushitiwari/Downloads/imagenette160New/\(datasetType)/*/**.JPEG")
+    let fromList = glob.glob("/Users/ayushitiwari/Downloads/imagenette\(size!)New/\(datasetType)/*/**.JPEG")
     var labels: [Int32] = []
     let imagePath = String(fromList[0])!
     
