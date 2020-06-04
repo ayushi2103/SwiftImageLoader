@@ -6,4 +6,4 @@
 
   - For Benchmarking, we used: https://github.com/google/swift-benchmark  
   - For Image Dataset, we used: https://github.com/fastai/imagenette  
-  Created a random subset of 1000 images by selecting 100 images from each class (10 classes) to have a balanced dataset.
+  Created a seeded random subset of 1000 images by selecting 100 images from each class (10 classes) to have a balanced dataset.
