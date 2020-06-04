@@ -14,8 +14,8 @@ import PythonKit
 let os = Python.import("os")
 let osPath = Python.import("os.path")
 
-let datasetPath = "/Users/ayushitiwari/Downloads/imagenette2-160"  // path of the original dataset
-let savedImagePath = "/Users/ayushitiwari/Downloads/imagenette160New" // path of new dataset
+let datasetPath = "/Users/ayushitiwari/Downloads/imagenette2-\(size!)"  // path of the original dataset
+let savedImagePath = "/Users/ayushitiwari/Downloads/imagenette\(size!)New" // path of new dataset
 var numberOfImages = 0  // number of images done
 
 func imageDataset(datasetType: String, numImagesPerClass: Int32) -> PythonObject{
