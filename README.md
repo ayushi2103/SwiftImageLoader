@@ -7,3 +7,11 @@
   - For Benchmarking, we used: https://github.com/google/swift-benchmark  
   - For Image Dataset, we used: https://github.com/fastai/imagenette  
   Created a seeded random subset of 1000 images by selecting 100 images from each class (10 classes) to have a balanced dataset.
+
+#### Results
+
+| size                    |name                    |  time            |  std       |  iterations  |
+|-------------|:------------:|------------------:|--------------:|---------------:|
+|   160 x 160       | PIL Image Loading Function |  54628854796.0 ns (50 s) | ±   3.68 %    |       5  |
+|   320 x 320       | PIL Image Loading Function |  | ±       |       5  |
+
