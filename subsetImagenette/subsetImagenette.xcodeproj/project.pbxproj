@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8527941248999E1005E4C58 /* stb_imageBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */; };
+		E85279432489A3D3005E4C58 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85279422489A3D3005E4C58 /* Image.swift */; };
+		E85279452489CED7005E4C58 /* ImagePathRetrieval.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */; };
 		E8A32BB624818B5500A7A103 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BB524818B5500A7A103 /* main.swift */; };
 		E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */; };
 		E8A32BC82483DB7000A7A103 /* Batcher in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BC72483DB7000A7A103 /* Batcher */; };
@@ -35,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stb_imageBenchmark.swift; sourceTree = "<group>"; };
+		E85279422489A3D3005E4C58 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePathRetrieval.swift; sourceTree = "<group>"; };
 		E8A32BB224818B5500A7A103 /* subsetImagenette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subsetImagenette; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A32BB524818B5500A7A103 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetImagenette.swift; sourceTree = "<group>"; };
@@ -86,7 +92,10 @@
 				E8A32BC52483DB5B00A7A103 /* subsetImagenette.entitlements */,
 				E8A32BB524818B5500A7A103 /* main.swift */,
 				E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */,
+				E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */,
 				E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */,
+				E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */,
+				E85279422489A3D3005E4C58 /* Image.swift */,
 			);
 			path = subsetImagenette;
 			sourceTree = "<group>";
@@ -173,8 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */,
+				E8527941248999E1005E4C58 /* stb_imageBenchmark.swift in Sources */,
 				E8DBE54B24886DDF002D9ED9 /* pillowBenchmark.swift in Sources */,
 				E8A32BB624818B5500A7A103 /* main.swift in Sources */,
+				E85279432489A3D3005E4C58 /* Image.swift in Sources */,
+				E85279452489CED7005E4C58 /* ImagePathRetrieval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,9 @@ let size = readLine()
 imageDataset(datasetType: "train", numImagesPerClass: 100)
 
 benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
-    let _ = loadImagenetteTrainingFiles()
+    let _ = loadImagenettePILTrainingFiles()
 }
 
 Benchmark.main()
+
+
