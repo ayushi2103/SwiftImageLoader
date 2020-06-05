@@ -4,7 +4,6 @@
 //
 //  Created by Ayushi Tiwari on 2020-05-31.
 //  Copyright © 2020 Ayushi Tiwari. All rights reserved.
-//  REFERENCE: https://github.com/Ayush517/imagenetteBenchmark.git
 //
 
 import Foundation
@@ -13,9 +12,9 @@ import PythonKit
 
 let os = Python.import("os")
 let osPath = Python.import("os.path")
-
+let glob = Python.import("glob")
 let datasetPath = "/Users/ayushitiwari/Downloads/imagenette2-\(size!)"  // path of the original dataset
-let savedImagePath = "/Users/ayushitiwari/Downloads/imagenette\(size!)New" // path of new dataset
+let newDatasetPath = "/Users/ayushitiwari/Downloads/imagenette\(size!)New" // path of new dataset
 var numberOfImages = 0  // number of images done
 
 func imageDataset(datasetType: String, numImagesPerClass: Int32) -> PythonObject{
@@ -30,7 +29,7 @@ func imageDataset(datasetType: String, numImagesPerClass: Int32) -> PythonObject
         
         let files = glob.glob(path+"/*.JPEG")   // get all images inside our class folder e.g. inside folder imagenette2-160/train/n01440764
         
-        let newFolder = savedImagePath+"/\(datasetType)/\(name)"   // new folder of our subset e.g. /Users/ayushitiwari/Downloads/imagenette160New/train/n01440764
+        let newFolder = newDatasetPath+"/\(datasetType)/\(name)"   // new folder of our subset e.g. /Users/ayushitiwari/Downloads/imagenette160New/train/n01440764
         
         numberOfImages = 0   // resetting number of images done in current class = 0
         
