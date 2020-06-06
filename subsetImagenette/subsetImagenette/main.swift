@@ -15,12 +15,18 @@ let classNames = ["n01440764", "n02102040", "n02979186", "n03000684", "n03028079
 print("Enter pixel size")
 let size = readLine()
 
-imageDataset(datasetType: "train", numImagesPerClass: 100)
+let unwrappedLabelDict : [String: Int] = createLabelDict(urls: try getFolderURLS(datasetType: "train"))
+//imageDataset(datasetType: "train", numImagesPerClass: 100)
 
-benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
-    let _ = loadImagenettePILTrainingFiles()
+//benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
+//    let _ = loadImagenettePILTrainingFiles()
+//}
+
+benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(5)) {
+    let _ = loadImagenetteSTBTrainingFiles()
 }
 
 Benchmark.main()
+
 
 
