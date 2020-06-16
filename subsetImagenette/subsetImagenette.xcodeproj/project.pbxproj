@@ -24,7 +24,7 @@
 		E8DBE54B24886DDF002D9ED9 /* pillowBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */; };
 		E8DBE54E24886EE4002D9ED9 /* Benchmark in Frameworks */ = {isa = PBXBuildFile; productRef = E8DBE54D24886EE4002D9ED9 /* Benchmark */; };
 		E8F3D5442494189000636872 /* SwiftLibjpegturbo in Frameworks */ = {isa = PBXBuildFile; productRef = E8F3D5432494189000636872 /* SwiftLibjpegturbo */; };
-		E8F3D54A2497FA5D00636872 /* libjpegTurbo.c in Sources */ = {isa = PBXBuildFile; fileRef = E8F3D5492497FA5D00636872 /* libjpegTurbo.c */; };
+		E8F3D54C2499230C00636872 /* ImageLibjpeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,8 +49,7 @@
 		E8A32BC52483DB5B00A7A103 /* subsetImagenette.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = subsetImagenette.entitlements; sourceTree = "<group>"; };
 		E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pillowBenchmark.swift; sourceTree = "<group>"; };
 		E8F3D5472497FA5D00636872 /* subsetImagenette-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "subsetImagenette-Bridging-Header.h"; sourceTree = "<group>"; };
-		E8F3D5482497FA5D00636872 /* libjpegTurbo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libjpegTurbo.h; sourceTree = "<group>"; };
-		E8F3D5492497FA5D00636872 /* libjpegTurbo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libjpegTurbo.c; sourceTree = "<group>"; };
+		E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibjpeg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +101,8 @@
 				E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */,
 				E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */,
 				E85279422489A3D3005E4C58 /* Image.swift */,
-				E8F3D5482497FA5D00636872 /* libjpegTurbo.h */,
-				E8F3D5492497FA5D00636872 /* libjpegTurbo.c */,
 				E8F3D5472497FA5D00636872 /* subsetImagenette-Bridging-Header.h */,
+				E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */,
 			);
 			path = subsetImagenette;
 			sourceTree = "<group>";
@@ -193,8 +191,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8F3D54A2497FA5D00636872 /* libjpegTurbo.c in Sources */,
 				E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */,
+				E8F3D54C2499230C00636872 /* ImageLibjpeg.swift in Sources */,
 				E8527941248999E1005E4C58 /* stb_imageBenchmark.swift in Sources */,
 				E8DBE54B24886DDF002D9ED9 /* pillowBenchmark.swift in Sources */,
 				E8A32BB624818B5500A7A103 /* main.swift in Sources */,
