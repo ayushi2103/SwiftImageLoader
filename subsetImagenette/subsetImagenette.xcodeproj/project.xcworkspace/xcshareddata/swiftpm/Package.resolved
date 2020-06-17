@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/google/swift-benchmark",
         "state": {
           "branch": "master",
-          "revision": "b161eb4f530c5004c461b5974f5805ff5734e558",
+          "revision": "ba1357ec14b7b6d0f2593c1f0ccb769fbe6092fd",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "http://github.com/tensorflow/swift-models",
         "state": {
           "branch": "master",
-          "revision": "71aa7df8351552daed614cd6b92f5ad9a8cd6f77",
+          "revision": "715e1a4827ec7fdf61642e1922006b6a8324f886",
           "version": null
         }
       },

@@ -60,14 +60,13 @@ public struct ImageJpegturbo {
             var width: Int32 = 0
             var height: Int32 = 0
             var bpp: Int32 = 0
-            guard let bytes = tjJpeg
+            guard let bytes = tjJPEGLoadImage(url.path, &width, 0, &height, &bpp, nil, 0)
             else {
                 // TODO: Proper error propagation for this.
                 fatalError("Unable to read image at: \(url.path).")
             }
             
             let data = [UInt8](UnsafeBufferPointer(start: bytes, count: Int(width * height * bpp)))
-            stbi_image_free(bytes)
             var loadedTensor = Tensor<UInt8>(
                     shape: [Int(height), Int(width), Int(bpp)], scalars: data)
             if bpp == 1 {
