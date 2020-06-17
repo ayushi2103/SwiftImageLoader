@@ -18,15 +18,15 @@ let size = readLine()
 let unwrappedLabelDict : [String: Int] = createLabelDict(urls: try getFolderURLS(datasetType: "train"))
 //imageDataset(datasetType: "train", numImagesPerClass: 100)
 
-//benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
-//    let _ = loadImagenettePILTrainingFiles()
+////benchmark("\(size!)px Pillow Image Loading", settings: .iterations(5)) {
+////    let _ = loadImagenettePILTrainingFiles()
+////}
+//
+//benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(1)) {
+//    let _ = loadImagenetteSTBTrainingFiles()
 //}
-
-benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(5)) {
-    let _ = loadImagenetteSTBTrainingFiles()
-}
-
-Benchmark.main()
-
-
-
+//
+//Benchmark.main()
+//
+//
+//
