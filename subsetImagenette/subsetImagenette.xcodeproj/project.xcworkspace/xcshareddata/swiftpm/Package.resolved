@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "JPEG",
+        "repositoryURL": "https://github.com/kelvin13/jpeg.git",
+        "state": {
+          "branch": "master",
+          "revision": "d28707ff7c7ccb58b7012006517564dc271d586d",
+          "version": null
+        }
+      },
+      {
         "package": "swift-argument-parser",
         "repositoryURL": "https://github.com/apple/swift-argument-parser",
         "state": {
@@ -15,7 +24,7 @@
         "repositoryURL": "https://github.com/google/swift-benchmark",
         "state": {
           "branch": "master",
-          "revision": "ba1357ec14b7b6d0f2593c1f0ccb769fbe6092fd",
+          "revision": "3d24a938ea553a3977cfbf8199d42839c9061c3f",
           "version": null
         }
       },
@@ -24,7 +33,7 @@
         "repositoryURL": "http://github.com/tensorflow/swift-models",
         "state": {
           "branch": "master",
-          "revision": "715e1a4827ec7fdf61642e1922006b6a8324f886",
+          "revision": "7eab15315c9a41657cb7f75112a938a839a76192",
           "version": null
         }
       },
@@ -42,7 +51,7 @@
         "repositoryURL": "https://github.com/ayushi2103/SwiftLibjpegTurbo.git",
         "state": {
           "branch": "master",
-          "revision": "03e486f42daa33ec26f972b8dc68e183b6a3c514",
+          "revision": "6021f83d03892a91232dfdf00cc0332373c6ffff",
           "version": null
         }
       }
