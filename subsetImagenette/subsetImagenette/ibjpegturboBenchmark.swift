@@ -14,7 +14,7 @@ let plt = Python.import("matplotlib.pyplot")
 
 
 func showNumpyImage (_ image: PythonObject) {
-    let modImage = image 
+    let modImage = image / 255.0
     plt.imshow(modImage)
     plt.show()
 }

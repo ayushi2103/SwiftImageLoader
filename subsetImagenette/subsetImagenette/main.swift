@@ -28,5 +28,5 @@ let unwrappedLabelDict : [String: Int] = createLabelDict(urls: try getFolderURLS
 //
 //Benchmark.main()
 
-let inputPath =  URL(string: "/Users/ayushitiwari/Downloads/tiger.jpeg")
+let inputPath =  URL(string: "/Users/ayushitiwari/Downloads/cat.jpg")
 getJPEGTensor(fromPath: inputPath!)
