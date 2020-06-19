@@ -18,7 +18,7 @@ func showNumpyImage (_ image: PythonObject) {
     plt.imshow(modImage)
     plt.show()
 }
-func getJPEGTensor(fromPath: URL) -> (Tensor<Float>, Int32) {
+func getJPEGturboTensor(fromPath: URL) -> (Tensor<Float>, Int32) {
     let Imagesize: Int = Int(size ?? "") ?? 0
 //print(Imagesize)
     let img = ImageJpegturbo(jpeg: fromPath)

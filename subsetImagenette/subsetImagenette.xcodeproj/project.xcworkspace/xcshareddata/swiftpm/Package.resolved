@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "JPEG",
+        "repositoryURL": "https://github.com/kelvin13/jpeg.git",
+        "state": {
+          "branch": "master",
+          "revision": "d28707ff7c7ccb58b7012006517564dc271d586d",
+          "version": null
+        }
+      },
+      {
         "package": "swift-argument-parser",
         "repositoryURL": "https://github.com/apple/swift-argument-parser",
         "state": {
