@@ -36,6 +36,15 @@
           "revision": "7f36441e3372665b1b414f8ac93b5905cc42a405",
           "version": "1.9.0"
         }
+      },
+      {
+        "package": "SwiftLibjpegturbo",
+        "repositoryURL": "https://github.com/ayushi2103/SwiftLibjpegTurbo.git",
+        "state": {
+          "branch": "master",
+          "revision": "6021f83d03892a91232dfdf00cc0332373c6ffff",
+          "version": null
+        }
       }
     ]
   },

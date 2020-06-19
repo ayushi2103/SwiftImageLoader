@@ -22,11 +22,11 @@ let unwrappedLabelDict : [String: Int] = createLabelDict(urls: try getFolderURLS
 //    let _ = loadImagenettePILTrainingFiles()
 //}
 
-benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(5)) {
-    let _ = loadImagenetteSTBTrainingFiles()
-}
+//benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(5)) {
+//    let _ = loadImagenetteSTBTrainingFiles()
+//}
+//
+//Benchmark.main()
 
-Benchmark.main()
-
-
-
+let inputPath =  URL(string: "/Users/ayushitiwari/Downloads/tiger.jpeg")
+getJPEGTensor(fromPath: inputPath!)
