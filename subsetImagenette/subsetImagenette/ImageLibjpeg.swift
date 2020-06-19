@@ -58,7 +58,8 @@ public struct ImageJpegturbo {
             var width: Int32 = 0
             var height: Int32 = 0
             var bpp: Int32 = 0
-            guard let bytes = tjJPEGLoadImage(url.path, &width, 0, &height, &bpp, nil, 0)
+            var inSubsamp: Int32 = 0
+            guard let bytes = tjJPEGLoadImage(url.path, &width, 0, &height, &bpp, &inSubsamp, 0)
             else {
                 // TODO: Proper error propagation for this.
                 fatalError("Unable to read image at: \(url.path).")
