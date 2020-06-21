@@ -10,6 +10,8 @@
 		E8527941248999E1005E4C58 /* stb_imageBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */; };
 		E85279432489A3D3005E4C58 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85279422489A3D3005E4C58 /* Image.swift */; };
 		E85279452489CED7005E4C58 /* ImagePathRetrieval.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */; };
+		E88EA993249D42F800AD9279 /* jpeg_benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EA992249D42F800AD9279 /* jpeg_benchmark.swift */; };
+		E88EA996249D441200AD9279 /* jpeg in Frameworks */ = {isa = PBXBuildFile; productRef = E88EA995249D441200AD9279 /* jpeg */; };
 		E8A32BB624818B5500A7A103 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BB524818B5500A7A103 /* main.swift */; };
 		E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */; };
 		E8A32BC82483DB7000A7A103 /* Batcher in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BC72483DB7000A7A103 /* Batcher */; };
@@ -21,10 +23,11 @@
 		E8A32BD42483DB7000A7A103 /* RecommendationModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD32483DB7000A7A103 /* RecommendationModels */; };
 		E8A32BD62483DB7000A7A103 /* TextModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD52483DB7000A7A103 /* TextModels */; };
 		E8A32BD82483DB7000A7A103 /* VideoClassificationModels in Frameworks */ = {isa = PBXBuildFile; productRef = E8A32BD72483DB7000A7A103 /* VideoClassificationModels */; };
+		E8CCF468249CE9310081A70B /* SwiftLibjpegturbo in Frameworks */ = {isa = PBXBuildFile; productRef = E8CCF467249CE9310081A70B /* SwiftLibjpegturbo */; };
+		E8CCF46A249CE94C0081A70B /* ImageLibjpeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CCF469249CE94C0081A70B /* ImageLibjpeg.swift */; };
+		E8CCF46C249CE99C0081A70B /* ibjpegturboBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CCF46B249CE99C0081A70B /* ibjpegturboBenchmark.swift */; };
 		E8DBE54B24886DDF002D9ED9 /* pillowBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */; };
 		E8DBE54E24886EE4002D9ED9 /* Benchmark in Frameworks */ = {isa = PBXBuildFile; productRef = E8DBE54D24886EE4002D9ED9 /* Benchmark */; };
-		E8F3D5442494189000636872 /* SwiftLibjpegturbo in Frameworks */ = {isa = PBXBuildFile; productRef = E8F3D5432494189000636872 /* SwiftLibjpegturbo */; };
-		E8F3D54C2499230C00636872 /* ImageLibjpeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,13 +46,14 @@
 		E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stb_imageBenchmark.swift; sourceTree = "<group>"; };
 		E85279422489A3D3005E4C58 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePathRetrieval.swift; sourceTree = "<group>"; };
+		E88EA992249D42F800AD9279 /* jpeg_benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jpeg_benchmark.swift; sourceTree = "<group>"; };
 		E8A32BB224818B5500A7A103 /* subsetImagenette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subsetImagenette; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A32BB524818B5500A7A103 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subsetImagenette.swift; sourceTree = "<group>"; };
 		E8A32BC52483DB5B00A7A103 /* subsetImagenette.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = subsetImagenette.entitlements; sourceTree = "<group>"; };
+		E8CCF469249CE94C0081A70B /* ImageLibjpeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibjpeg.swift; sourceTree = "<group>"; };
+		E8CCF46B249CE99C0081A70B /* ibjpegturboBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibjpegturboBenchmark.swift; sourceTree = "<group>"; };
 		E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pillowBenchmark.swift; sourceTree = "<group>"; };
-		E8F3D5472497FA5D00636872 /* subsetImagenette-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "subsetImagenette-Bridging-Header.h"; sourceTree = "<group>"; };
-		E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibjpeg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 			files = (
 				E8A32BD02483DB7000A7A103 /* MiniGo in Frameworks */,
 				E8A32BD82483DB7000A7A103 /* VideoClassificationModels in Frameworks */,
-				E8F3D5442494189000636872 /* SwiftLibjpegturbo in Frameworks */,
+				E8CCF468249CE9310081A70B /* SwiftLibjpegturbo in Frameworks */,
 				E8A32BCE2483DB7000A7A103 /* ImageClassificationModels in Frameworks */,
 				E8A32BD22483DB7000A7A103 /* ModelSupport in Frameworks */,
 				E8A32BD62483DB7000A7A103 /* TextModels in Frameworks */,
@@ -67,6 +71,7 @@
 				E8DBE54E24886EE4002D9ED9 /* Benchmark in Frameworks */,
 				E8A32BD42483DB7000A7A103 /* RecommendationModels in Frameworks */,
 				E8A32BCA2483DB7000A7A103 /* Datasets in Frameworks */,
+				E88EA996249D441200AD9279 /* jpeg in Frameworks */,
 				E8A32BCC2483DB7000A7A103 /* FastStyleTransfer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,11 +103,12 @@
 				E8A32BB524818B5500A7A103 /* main.swift */,
 				E8A32BC22483D2FC00A7A103 /* subsetImagenette.swift */,
 				E85279442489CED7005E4C58 /* ImagePathRetrieval.swift */,
+				E88EA992249D42F800AD9279 /* jpeg_benchmark.swift */,
 				E8DBE54A24886DDF002D9ED9 /* pillowBenchmark.swift */,
 				E8527940248999E1005E4C58 /* stb_imageBenchmark.swift */,
+				E8CCF46B249CE99C0081A70B /* ibjpegturboBenchmark.swift */,
 				E85279422489A3D3005E4C58 /* Image.swift */,
-				E8F3D5472497FA5D00636872 /* subsetImagenette-Bridging-Header.h */,
-				E8F3D54B2499230C00636872 /* ImageLibjpeg.swift */,
+				E8CCF469249CE94C0081A70B /* ImageLibjpeg.swift */,
 			);
 			path = subsetImagenette;
 			sourceTree = "<group>";
@@ -141,7 +147,8 @@
 				E8A32BD52483DB7000A7A103 /* TextModels */,
 				E8A32BD72483DB7000A7A103 /* VideoClassificationModels */,
 				E8DBE54D24886EE4002D9ED9 /* Benchmark */,
-				E8F3D5432494189000636872 /* SwiftLibjpegturbo */,
+				E8CCF467249CE9310081A70B /* SwiftLibjpegturbo */,
+				E88EA995249D441200AD9279 /* jpeg */,
 			);
 			productName = subsetImagenette;
 			productReference = E8A32BB224818B5500A7A103 /* subsetImagenette */;
@@ -159,7 +166,6 @@
 				TargetAttributes = {
 					E8A32BB124818B5500A7A103 = {
 						CreatedOnToolsVersion = 11.5;
-						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -175,7 +181,8 @@
 			packageReferences = (
 				E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */,
 				E8DBE54C24886EE4002D9ED9 /* XCRemoteSwiftPackageReference "swift-benchmark" */,
-				E8F3D5422494189000636872 /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */,
+				E8CCF466249CE9310081A70B /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */,
+				E88EA994249D441200AD9279 /* XCRemoteSwiftPackageReference "jpeg" */,
 			);
 			productRefGroup = E8A32BB324818B5500A7A103 /* Products */;
 			projectDirPath = "";
@@ -192,10 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A32BC32483D2FC00A7A103 /* subsetImagenette.swift in Sources */,
-				E8F3D54C2499230C00636872 /* ImageLibjpeg.swift in Sources */,
+				E8CCF46A249CE94C0081A70B /* ImageLibjpeg.swift in Sources */,
 				E8527941248999E1005E4C58 /* stb_imageBenchmark.swift in Sources */,
 				E8DBE54B24886DDF002D9ED9 /* pillowBenchmark.swift in Sources */,
+				E88EA993249D42F800AD9279 /* jpeg_benchmark.swift in Sources */,
 				E8A32BB624818B5500A7A103 /* main.swift in Sources */,
+				E8CCF46C249CE99C0081A70B /* ibjpegturboBenchmark.swift in Sources */,
 				E85279432489A3D3005E4C58 /* Image.swift in Sources */,
 				E85279452489CED7005E4C58 /* ImagePathRetrieval.swift in Sources */,
 			);
@@ -320,19 +329,11 @@
 		E8A32BBA24818B5500A7A103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = subsetImagenette/subsetImagenette.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9893V43H62;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "subsetImagenette/subsetImagenette-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -340,18 +341,11 @@
 		E8A32BBB24818B5500A7A103 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = subsetImagenette/subsetImagenette.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9893V43H62;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "subsetImagenette/subsetImagenette-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -380,9 +374,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E88EA994249D441200AD9279 /* XCRemoteSwiftPackageReference "jpeg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kelvin13/jpeg.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "http://github.com/tensorflow/swift-models";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E8CCF466249CE9310081A70B /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ayushi2103/SwiftLibjpegTurbo.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -396,17 +406,14 @@
 				kind = branch;
 			};
 		};
-		E8F3D5422494189000636872 /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ayushi2103/SwiftLibjpegTurbo.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E88EA995249D441200AD9279 /* jpeg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88EA994249D441200AD9279 /* XCRemoteSwiftPackageReference "jpeg" */;
+			productName = jpeg;
+		};
 		E8A32BC72483DB7000A7A103 /* Batcher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
@@ -452,15 +459,15 @@
 			package = E8A32BC42483DB5300A7A103 /* XCRemoteSwiftPackageReference "swift-models" */;
 			productName = VideoClassificationModels;
 		};
+		E8CCF467249CE9310081A70B /* SwiftLibjpegturbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8CCF466249CE9310081A70B /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */;
+			productName = SwiftLibjpegturbo;
+		};
 		E8DBE54D24886EE4002D9ED9 /* Benchmark */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E8DBE54C24886EE4002D9ED9 /* XCRemoteSwiftPackageReference "swift-benchmark" */;
 			productName = Benchmark;
-		};
-		E8F3D5432494189000636872 /* SwiftLibjpegturbo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E8F3D5422494189000636872 /* XCRemoteSwiftPackageReference "SwiftLibjpegTurbo" */;
-			productName = SwiftLibjpegturbo;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -2,17 +2,15 @@
 //  ImageLibjpeg.swift
 //  subsetImagenette
 //
-//  Created by Ayushi Tiwari on 2020-06-16.
+//  Created by Ayushi Tiwari on 2020-06-19.
 //  Copyright © 2020 Ayushi Tiwari. All rights reserved.
 //
 
 import Foundation
-import SwiftLibjpegturbo
+@_implementationOnly import SwiftLibjpegturbo
 import TensorFlow
 import ModelSupport
 import libjpegturbo
-// Image loading and saving is inspired by t-ae's Swim library: https://github.com/t-ae/swim
-// and uses the stb_image single-file C headers from https://github.com/nothings/stb .
 
 public struct ImageJpegturbo {
     public enum ByteOrdering {
@@ -60,14 +58,14 @@ public struct ImageJpegturbo {
             var width: Int32 = 0
             var height: Int32 = 0
             var bpp: Int32 = 0
-            guard let bytes = tjJpeg
+            var inSubsamp: Int32 = 0
+            guard let bytes = tjJPEGLoadImage(url.path, &width, 0, &height, &bpp, &inSubsamp, 0)
             else {
                 // TODO: Proper error propagation for this.
                 fatalError("Unable to read image at: \(url.path).")
             }
             
             let data = [UInt8](UnsafeBufferPointer(start: bytes, count: Int(width * height * bpp)))
-            stbi_image_free(bytes)
             var loadedTensor = Tensor<UInt8>(
                     shape: [Int(height), Int(width), Int(bpp)], scalars: data)
             if bpp == 1 {
@@ -77,7 +75,16 @@ public struct ImageJpegturbo {
         }
 
     }
+    
+    public func resized(to size: (Int, Int)) -> ImageJpegturbo {
+        switch self.imageData {
+        case let .uint8(data):
+            let resizedImage = resize(images: Tensor<Float>(data), size: size, method: .bilinear)
+            return ImageJpegturbo(tensor: Tensor<UInt8>(resizedImage))
+        case let .float(data):
+            let resizedImage = resize(images: data, size: size, method: .bilinear)
+            return ImageJpegturbo(tensor: resizedImage)
+        }
+    }
 
 }
-
- 
