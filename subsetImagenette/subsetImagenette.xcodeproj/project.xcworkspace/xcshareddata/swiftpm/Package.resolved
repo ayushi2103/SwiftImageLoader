@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/google/swift-benchmark",
         "state": {
           "branch": "master",
-          "revision": "b161eb4f530c5004c461b5974f5805ff5734e558",
+          "revision": "3d24a938ea553a3977cfbf8199d42839c9061c3f",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "http://github.com/tensorflow/swift-models",
         "state": {
           "branch": "master",
-          "revision": "71aa7df8351552daed614cd6b92f5ad9a8cd6f77",
+          "revision": "7eab15315c9a41657cb7f75112a938a839a76192",
           "version": null
         }
       },
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/ayushi2103/SwiftLibjpegTurbo.git",
         "state": {
           "branch": "master",
-          "revision": "03e486f42daa33ec26f972b8dc68e183b6a3c514",
+          "revision": "6021f83d03892a91232dfdf00cc0332373c6ffff",
           "version": null
         }
       }
