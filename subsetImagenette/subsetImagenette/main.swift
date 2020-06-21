@@ -25,8 +25,10 @@ let unwrappedLabelDict : [String: Int] = createLabelDict(urls: try getFolderURLS
 //benchmark("\(size!)px STB_Image Image Loading", settings: .iterations(5)) {
 //    let _ = loadImagenetteSTBTrainingFiles()
 //}
-//
-//Benchmark.main()
+benchmark("\(size!)px STB_Image Image Loading", settings: Iterations(5)) {
+    let _ = loadImagenetteJPEGTrainingFiles()
+}
 
-let inputPath =  URL(string: "/Users/ayushitiwari/Downloads/cat.jpg")
-getJPEGTensor(fromPath: inputPath!)
+Benchmark.main()
+
+

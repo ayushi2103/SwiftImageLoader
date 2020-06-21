@@ -22,13 +22,14 @@ func decode(jpeg path:String) throws -> (Tensor<Float>)
     let width = image.size.x
     let height = image.size.y
     let flatData = rgb.flatMap{ [$0.r, $0.g, $0.b] }
-    let loadedTensor = Tensor<Float>(shape: [Int(height), Int(width), 3], scalars: flatData)
+    let loadedTensor = Tensor<UInt8>(shape: [Int(height), Int(width), 3], scalars: flatData)
+    let floatTensor = Tensor<Float>(loadedTensor)
+    return floatTensor
     
-    return loadedTensor 
 }
 
 func getJPEGTensor(fromPath: String) -> (Tensor<Float>, Int32) {
-    var imageTensor = decode(jpeg: fromPath)
+    var imageTensor = try! decode(jpeg: fromPath)
     let tensorSize: _TensorElementLiteral<Int32> = _TensorElementLiteral<Int32>(integerLiteral: Int32.IntegerLiteralType(Int(size!)!))
     imageTensor = imageTensor.expandingShape(at: 0)
     imageTensor = _Raw.resizeArea(images: imageTensor , size: [ tensorSize, tensorSize])
