@@ -17,6 +17,10 @@
 
 
 #### LIBRARIES
+PIL: https://github.com/python-pillow/Pillow  
+STBImage: https://github.com/nothings/stb  
+JPEGTurbo: https://github.com/libjpeg-turbo/libjpeg-turbo  
+JPEG Library: https://github.com/kelvin13/jpeg 
 
 #### RESULTS
 
