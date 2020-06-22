@@ -24,8 +24,9 @@
 |   320 x 320       | STB_image Image Loading Function | 144975640171.0 ns (144 s) | ±  3.34 %     |       5  |
 |   160 x 160       | JPEGTurbo Load operation |   55647521090.5 ns (55 s) |  ±   2.51 %     |          5
 |   320 x 320       | JPEGTurbo Load operation |  139024297588.0 ns (139 s) |  ±   2.66 %      |         5
-|   160 x 160       | JPEG Image Load operation | 56629216030.0 ns (50 s) | ±  13.59 %   |       5  |
-|   320 x 320       | JPEG Image Load operation | 152135858180.0 ns (150 s) | ±   8.56 %    |       5  |
+|   160 x 160       | JPEG Load operation  |  117379591932.5 ns (117 s) |  ±   6.97 %     |         5
+|   320 x 320       | JPEG Load operation  |  349771842833.5 ns (349 s) |  ±   0.63 %    |         5
+
 
 ##### Results when benchmarked using first 3 steps
 
