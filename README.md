@@ -9,6 +9,12 @@
   Created a seeded random subset of 1000 images by selecting 100 images from each class (10 classes) to have a balanced dataset.
 
 #### STEPS
+1.) First we get the paths of images in the datasetType  
+2.) Load the image using that library  
+3.) Convert and resize it to appropriate tensor  
+4.) Calculate its label  
+5.) Append it to final list lof tensors and labels  
+
 
 #### LIBRARIES
 
