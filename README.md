@@ -8,9 +8,11 @@
   - For Image Dataset, we used: https://github.com/fastai/imagenette  
   Created a seeded random subset of 1000 images by selecting 100 images from each class (10 classes) to have a balanced dataset.
 
-STEPS  
+#### STEPS
 
-#### Results
+#### LIBRARIES
+
+#### RESULTS
 
 ##### Results when benchmarked using all 5 steps
 
