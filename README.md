@@ -50,5 +50,5 @@ JPEG Library: https://github.com/kelvin13/jpeg
 |   320 x 320       | JPEGTurbo Image Load operation | 1985243526.50 ns (2.0 s) | ±   3.11 %    |       50  |
 |   160 x 160       | JPEG Image Load operation | 52044369008.0 ns (52 s) | ±   1.99 %   |       5 |
 |   320 x 320       | JPEG Image Load operation | 195361269887.0 ns (195 s) | ±   1.4 %    |       5  |
-|   160 x 160       | Nvidia Dali Image Load operation | 1780533643800027 ns (1.78 s) | ±   1.99 %   |       5 |
+|   160 x 160       | Nvidia Dali Image Load operation | 1780533644 ns (1.78 s) | ±   1.99 %   |       5 |
 |   320 x 320       | Nvidia Dali Image Load operation |  |    |         |
