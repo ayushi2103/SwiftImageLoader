@@ -54,14 +54,14 @@ func loadJPEGDataset(datasetPaths: [String]) -> (Tensor<Float>, [Int32]) {
     
     var imageTensor: Tensor<Float>
     
-    let data = getPILTensor(fromPath: datasetPaths[0])
+    let data = getJPEGTensor(fromPath: datasetPaths[0])
     imageTensor = data.0
     labels.append(data.1)
     
     for path in datasetPaths[1..<datasetPaths.count] {
         
         //let imagePath = String(file) ?? ""
-        let data = getPILTensor(fromPath: path)
+        let data = getJPEGTensor(fromPath: path)
         let tensor = data.0
         labels.append(data.1)
         imageTensor = Tensor(concatenating: [imageTensor, tensor], alongAxis: 0)
