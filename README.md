@@ -36,6 +36,12 @@ JPEG Library: https://github.com/kelvin13/jpeg
 |   320 x 320       | JPEGTurbo Load operation |  139024297588.0 ns (139 s) |  ±   2.66 %      |         5
 |   160 x 160       | JPEG Load operation  |  117379591932.5 ns (117 s) |  ±   6.97 %     |         5
 |   320 x 320       | JPEG Load operation  |  349771842833.5 ns (349 s) |  ±   0.63 %    |         5
+|   160 x 160       | Nvidia Dali Image Load operation | 1780533644 ns (1.78 s) | ±   1.99 %   |       5 |
+|   320 x 320       | Nvidia Dali Image Load operation | 1166308317 ns (1.16 s) | ±   0.8%   |    5     |
+
+* Nvidia Dali was benchmarked in Python using a Tesla T4 GPU along with 8 CPUs and 30 Gb memory in Ubuntu 18.04 LTS
+* For 320 x 320 operation in Nvidia Dali, only 319 images can be loaded due to memory restrictions. The given time is for 319 images out of total 1000 i.e. for 1/3rd of the total dataset.
+
 
 
 ##### Results when benchmarked using first 3 steps
@@ -50,5 +56,3 @@ JPEG Library: https://github.com/kelvin13/jpeg
 |   320 x 320       | JPEGTurbo Image Load operation | 1985243526.50 ns (2.0 s) | ±   3.11 %    |       50  |
 |   160 x 160       | JPEG Image Load operation | 52044369008.0 ns (52 s) | ±   1.99 %   |       5 |
 |   320 x 320       | JPEG Image Load operation | 195361269887.0 ns (195 s) | ±   1.4 %    |       5  |
-|   160 x 160       | Nvidia Dali Image Load operation | 1780533644 ns (1.78 s) | ±   1.99 %   |       5 |
-|   320 x 320       | Nvidia Dali Image Load operation |  |    |         |
